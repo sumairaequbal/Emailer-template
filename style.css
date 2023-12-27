@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    align-items: center;
+}
+html,body{
+    height: 100%;
+    width: 600px;
+}
+.main{
+    height:100%;
+    width: 600px;
+    position: absolute;
+    background-color: blanchedalmond;
+}
+.sub{
+    height: 50vh;
+    width: 600px;
+    background-image: url("https://cache.careers360.mobi/media/article_images/2023/1/18/featured-image-gim.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
+}
+.sub img{
+width: 300px;
+}
+
+.bottom{   
+    width: 600px;
+    padding: 15px;
+}
+.bottom span{
+    color:rgb(56, 135, 190);
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+
+}
+.bottom h4{
+    font-size:1.5rem ;
+    font-weight: 50;
+}
+.bottom h1{
+    font-weight: 700;
+}
+.bot{
+    line-height: 2.1rem;
+
+    width: 600px;
+    padding: 15px;
+    align-items: center;
+    
+}
+.bot1 img{
+    width: 550px;
+    height: 25vh;
+    margin-top: 1vh;
+    object-position:center ;
+}
+.bot2{
+    width: 600px;
+    padding: 12px;
+    align-items: center;
+    height: 20%;
+    
+}
+.bot2 h3 {
+    
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+.bot2 h4{
+font-size: 1.1rem;
+font-weight: 200;
+padding: 10px;
+
+}
+hr{
+    align-items: center;
+
+}
+.mid{
+    padding: 15px;
+}
+.pro h4{
+    background-color:rgb(56, 135, 190);
+width: 200px;
+padding: 10px;
+color: white;
+
+}
+
+.mid h3{
+    font-size: 1rem;
+    font-weight: 100;
+    background-color: transparent;
+}
+.mid1{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius:  50px 50px 50px 50px/0px 50px ;
+    background-color:  rgb(200, 222, 249);
+}
+.mid1-sub,.mid2-sub{
+    height: 70px;
+    width: 60px;
+    border-radius:  50px 50px 50px 50px/0px 50px ;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#sub1{
+    background-color: rgb(175, 200, 173);
+}
+.sub2{
+    background-color: rgb(231, 189, 130);
+}
+#sub3{
+    background-color: rgb(206, 246, 160);
+}
+.mid2{
+    height: 100px;
+    width: 300px;
+background-color:rgb(255, 236, 214);
+display: flex;
+margin-left: 50%;
+    border-radius:  50px 50px 50px 50px/0px 50px ;
+ 
+}.foot{
+    width: 500px;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+.foot1 h4{
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: left;  
+}
+.foot2{
+    display: flex;
+padding: 12px 15px;
+align-items: center;
+text-align: center;
+justify-content: center;
+gap: 5px;
+}
+button{
+    background-color:rgb(184, 44, 44) ;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+@media screen and(max-width:600px){
+    @media screen and (max-width: 600px) {
+        html,body {
+            width: 100%;
+        }
+    
+        .main,
+        .sub,
+        .bottom,
+        .bot,
+        .bot1 img,
+        .bot2 {
+            width: 100%;
+        }
+    
+        .sub,
+        .bottom {
+            height: 20vh; /* Adjust the height as needed */
+        }
+    
+        .bot1 img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+}
